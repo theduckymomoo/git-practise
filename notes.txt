@@ -1,0 +1,26 @@
+s essentially you first need to create a local repo
+you do this by typing:
+git init
+
+then you must add your files to the local repo
+you do this by typing:
+git add (the file name)
+
+then you myst then you mys commit the files to the local repo
+you do this by typing:
+git commit -m "message.."
+the -m is used when you want to commit and leave a comment/message
+
+then after that you need to add your github repo address
+you do this by typing:
+git remote add orgin (your github repo address)
+orgin is used as a nickname for your orginal address, so you dont have to type it out every time
+
+then after this you must push your local repo to your github repo
+you do this by typing:
+git push -u orgin main
+the -u orgin main essentially means remeber this connection so next time you dont have to type the full thing
+main is used to show which branch you want to push it to
+
+to check which branch you are currently in you type:
+git branch
